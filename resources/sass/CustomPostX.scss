@@ -1,0 +1,132 @@
+
+
+
+.custom-x-component{
+    color: aqua;
+    margin: 1.5rem 0 0 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #171c27;
+    position: relative;
+    width: 100%;
+    border: none;
+    height: auto;
+    border: 3px solid #171c27;
+    border-radius: 0.88rem;
+    box-sizing: content-box;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    img{
+        position: relative;
+        width: 100%;
+        height: 25rem;
+        background-repeat: no-repeat;
+        background-size: auto;
+        border-radius: 0;//0.88rem 0.88rem 0 0
+        box-sizing: border-box;
+        margin-top: 0.3rem;
+    }
+}
+
+.ui-x-pannel{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 98%;
+    margin-left: 1%;
+    height: 3rem;
+    margin-top: 0.3rem;
+
+    p{
+        color: white;
+        margin-right: 1rem;
+    }
+
+    i{
+        margin-left: 0.1rem;
+    }
+}
+#chat-x{
+    transform: scaleX(-1);
+}
+i{
+    width: 2rem;
+    height: 2rem;
+    color: aqua;
+    fill: white;
+    margin-top: 0.5rem;
+}
+i::before{
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+.description-x-div{
+    position: relative;
+    min-height: 20rem;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1rem;
+    p{
+        padding: 0rem 2rem 0rem 1.5rem;
+    }
+}
+
+.user-x-div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+
+    img{
+        margin: 0.7rem 0 0 1rem;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    p{
+        border-radius: 50%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 0.5rem 0 0 0.4rem;
+        line-height: 3.5rem;
+        font-size: 1.3rem;
+        color: rgb(255, 255, 255);;
+       
+        span{
+            color: aqua;
+            font-weight: 500;
+            line-height: 3.5rem;
+            font-size: 1.3rem;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    }
+    
+    i{
+        position: absolute;
+        justify-self: flex-end;
+        right: 1rem;
+        top: 0.7rem;
+    }
+}
+
+
+
+
+
+

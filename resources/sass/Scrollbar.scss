@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 0rem;
+    background-color: transparent;
+    border-radius: 1.66rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.66rem;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #666; 
+    max-height: 4rem;
+    opacity: 0;
+    border-radius: 1.66rem;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    opacity: 1;
+  }
